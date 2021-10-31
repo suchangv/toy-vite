@@ -1,9 +1,9 @@
-import { render, h } from "preact";
-import { useState } from "preact/hooks";
-// import { debounce } from "lodash-es";
+import React from "react";
+import ReactDOM from "react-dom";
+import { debounce } from "lodash-es";
 
 const App = () => {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = React.useState(0);
 
   return (
     <div>
@@ -14,4 +14,4 @@ const App = () => {
   );
 };
 
-render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));

@@ -10,8 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/plugin-transform-react-jsx": "^7.16.0",
+    "esbuild": "^0.13.12",
     "express": "^4.17.1"
   }
 }
