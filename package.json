@@ -1,0 +1,17 @@
+{
+  "name": "toy-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-react-jsx": "^7.16.0",
+    "express": "^4.17.1"
+  }
+}
